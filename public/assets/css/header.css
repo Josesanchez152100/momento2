@@ -1,0 +1,98 @@
+.borde{
+  border-radius: 12px;
+  background-color: khaki
+ 
+}
+
+.border2{
+  border-radius: 3px;
+  background-color: rgb(179, 183, 187);
+  padding: 5px;
+  align-content: flex-end;
+  
+}
+
+label{
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  padding-right: 1em;
+}
+div.border2{
+  padding: 1em;
+  margin-top: 1em;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ border-style: unset;
+ border-color: khaki;
+ border-radius:10px ;
+
+}
+
+button.button{
+  background-color: rgb(219, 216, 216);
+  border-radius: 5px;
+  size: 3em;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-style: inherit;
+ font-size: 1em;
+ padding: 4px;
+ text-decoration-color: orange;
+
+ 
+}
+input.borde{
+  size: 1em;
+  padding: 4px;
+  margin-right: 1.5em;
+  border-color: khaki;
+  border-style: groove;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: inherit;
+  justify-content: center;
+  align-items: center;
+  
+}
+.alerta{
+  background-color: lightcoral;
+}
+
+#effect-hover .img {
+  background-color: rgb(202, 150, 44);
+  width: 400px;
+  height: 20px;
+  background-size: cover;
+  background-position: right;
+  margin: auto;
+  opacity: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#effect-hover #efecto {
+  position: sticky;
+  width: 450px;
+  height: 40px;
+  background-color: rgba(202, 57, 13, 0.8);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#effect-hover .img:hover #efecto {
+  opacity: 1;
+}
+
+#effect-hover h4 {
+  position: static;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+  
+  transition-duration: 2s
+}
+
+#effect-hover .img:hover h4 {
+  top: 15px;
+}
